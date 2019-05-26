@@ -42,7 +42,8 @@ html, body, h1, h2, h3 {
 
 .hero h1 {
   font-family: "Alegreya";
-  font-size: 5rem;
+  font-size: 4rem;
+  line-height: 95%;
 }
 
 .hero h2 {
