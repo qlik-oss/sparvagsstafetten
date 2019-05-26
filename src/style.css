@@ -56,9 +56,31 @@ html, body, h1, h2, h3 {
   font-weight: 300;
   padding: 3%;
 }
+@media screen and (min-width:1090px) {
+  .segment:not('.columns') {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center
+  }
+  .segment > * {
+    max-width: 1090px;
+    margin: auto
+  }
+  .columns {
+    max-width: 1090px;
+    margin:auto;
+  }
+}
 
 .columns {
-  display: flex
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+@media screen and (max-width:900px) {
+  .columns {
+    flex-wrap: wrap;
+  }
 }
 
 .column {
