@@ -41,8 +41,8 @@ html, body, h1, h2, h3 {
 }
 
 .hero h1 {
-  font-size: 3rem;
-  font-weight: 800;
+  font-family: "Alegreya";
+  font-size: 5rem;
 }
 
 .hero h2 {
