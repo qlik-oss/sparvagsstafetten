@@ -1,14 +1,14 @@
 html, body, h1, h2, h3 {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 
 .hero {
   max-width:100%;
   width: 100vw;
   height: 100vh;
-  background-image: url('./alexander-redl-185764-unsplash.jpg');
+  background-image: url('./sparvagsstafetten.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -29,20 +29,50 @@ html, body, h1, h2, h3 {
 
 .button-register {
   padding: 1rem;
-  background-color: #77c277;
   margin: 1rem;
   display: inline-block;
   text-decoration: none;
-  color: #333;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-weight: bolder;
 }
+a.button-register:link, a.button-register:visited, a.button-register:hover {
+  color:#fff;
+}
+
+
 
 .hero h1, .hero h2 {
   text-align: center;
 }
+.hero h1 img {
+  width: 80%;
+}
 
-.hero h1 {
-  font-size: 3rem;
-  font-weight: 800;
+@media screen and (min-width:550px) {
+  .hero h1 img {
+    width: 65%;
+  }
+}
+@media screen and (min-width:770px) {
+.hero h1 img {
+  width: 55%;
+  }
+}
+@media screen and (min-width:950px) {
+  .hero h1 img {
+    width: 45%;
+    }
+}
+@media screen and (min-width:1050px) {
+  .hero h1 img {
+    width: 38%;
+    }
+}
+@media screen and (min-width:1450px) {
+  .hero h1 img {
+    width: 30%;
+    }
 }
 
 .hero h2 {
@@ -53,22 +83,43 @@ html, body, h1, h2, h3 {
 .segment {
   font-size: 1.5rem;
   font-weight: 300;
-  padding: 8rem;
+  padding: 3%;
+}
+.segment h2, .segment h3 {
+  margin-top: 1.5rem;
+}
+.segment * {
+  margin-top: 0.3rem;
 }
 
-.navy {
-  background-color: #193970;
-  color: #e1e1e1;
-  box-shadow: inset 0 3px 3px #111;
-}
+@media screen and (min-width:1090px) {
+  .segment:not('.columns') {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center
+  }
+  .segment > * {
+    max-width: 1090px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .columns {
+    max-width: 1090px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.gray {
-  background-color: #e4f4f4;
-  color: #333;
 }
 
 .columns {
-  display: flex
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+@media screen and (max-width:900px) {
+  .columns {
+    flex-wrap: wrap;
+  }
 }
 
 .column {
@@ -78,3 +129,49 @@ html, body, h1, h2, h3 {
 img {
   width: 90%;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color:#555;
+  font-weight: bolder;
+} 
+
+a:visited {
+ color:#7c7c82;
+}
+
+a:hover {
+ color:#333;
+ cursor: pointer;
+}
+
+
+
+.light_gray {
+  background-color: #e4f4f4;
+  color: #333;
+}
+
+.dark_gray {
+  background-color: #7c7c82;
+  color: #fff;
+}
+
+.green {
+  background-color: #8ec6af;
+  color: #fff;
+}
+
+.orange {
+  background-color: #f47a56;
+  color: #fff;
+}
+
+.white {
+  background-color: #fff;
+  color: #7c7c82;
+}
+
