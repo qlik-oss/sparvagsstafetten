@@ -176,6 +176,7 @@ a.button-register:link, a.button-register:visited, a.button-register:hover {
 .columns {
   display: flex;
   flex-flow: row nowrap;
+  max-width:100%;
 }
 
 @media screen and (max-width:900px) {
@@ -186,6 +187,9 @@ a.button-register:link, a.button-register:visited, a.button-register:hover {
 
 .column {
   min-width: 50%;
+}
+.column-of-3 {
+  min-width: 33%;
 }
 
 img {
@@ -209,8 +213,6 @@ a:hover {
  color:#333;
  cursor: pointer;
 }
-
-
 
 .light_gray {
   background-color: #e4f4f4;
