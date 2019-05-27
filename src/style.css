@@ -40,11 +40,34 @@ html, body, h1, h2, h3 {
 .hero h1, .hero h2 {
   text-align: center;
 }
+.hero h1 img {
+  width: 80%;
+}
 
-.hero h1 {
-  font-family: "Alegreya";
-  font-size: 4rem;
-  line-height: 95%;
+@media screen and (min-width:550px) {
+  .hero h1 img {
+    width: 65%;
+  }
+}
+@media screen and (min-width:770px) {
+.hero h1 img {
+  width: 55%;
+  }
+}
+@media screen and (min-width:950px) {
+  .hero h1 img {
+    width: 45%;
+    }
+}
+@media screen and (min-width:1050px) {
+  .hero h1 img {
+    width: 38%;
+    }
+}
+@media screen and (min-width:1450px) {
+  .hero h1 img {
+    width: 30%;
+    }
 }
 
 .hero h2 {
@@ -57,6 +80,13 @@ html, body, h1, h2, h3 {
   font-weight: 300;
   padding: 3%;
 }
+.segment h2, .segment h3 {
+  margin-top: 1.5rem;
+}
+.segment * {
+  margin-top: 0.3rem;
+}
+
 @media screen and (min-width:1090px) {
   .segment:not('.columns') {
     display: flex;
@@ -65,12 +95,15 @@ html, body, h1, h2, h3 {
   }
   .segment > * {
     max-width: 1090px;
-    margin: auto
+    margin-left: auto;
+    margin-right: auto;
   }
   .columns {
     max-width: 1090px;
-    margin:auto;
+    margin-left: auto;
+    margin-right: auto;
   }
+
 }
 
 .columns {
