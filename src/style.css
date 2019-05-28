@@ -147,8 +147,9 @@ a.button-register:link, a.button-register:visited, a.button-register:hover {
   font-weight: 300;
   padding: 3%;
 }
-.segment h2, .segment h3 {
+.segment h2, .segment h3, .segment h4 {
   margin-top: 1.5rem;
+  margin-bottom: 0.5rem
 }
 .segment * {
   margin-top: 0.3rem;
