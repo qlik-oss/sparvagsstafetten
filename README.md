@@ -53,6 +53,7 @@ To contribute, you first need to
 * sign a CLA (Contributor License Agreement), since the repo resides under qlik-oss (please contact [Andrée Hansson](https://github.com/peol) for assistance).
 * [fork the repo](https://help.github.com/en/articles/fork-a-repo#fork-an-example-repository) to your personal account (non-employees may not be members of qlik-oss and can therefore not create branches directly in the repo).
 
+When you have a signed CLA and a personal fork: 
 * Create a branch in your fork for the changes you want to propose 
 * If your changes apply to an [open issue](https://github.com/qlik-oss/sparvagsstafetten/issues?q=is%3Aissue+is%3Aopen), comment on the issue with a link to the branch in your fork (so other people know you're working on it).
 * When done, create a PR to master in `qlik-oss/sparvagsstafetten`, referencing any relevant issues in the description (see [Approval](#approval)).
