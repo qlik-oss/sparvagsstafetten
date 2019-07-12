@@ -42,7 +42,7 @@ For Qlik employees: request write access to the repo by contacting: [AHN](https:
 ### How to contribute code/content
 #### Qlik employees
 For contributions during working hours:
-* before contributing: confirm available socpe with your manager
+* before contributing: confirm available scope with your manager
 * after: report time as CR-day (part of) indicating Spårvägsstafetten in description
 
 1. Pick/create an [issue](https://github.com/qlik-oss/sparvagsstafetten/issues?q=is%3Aissue+is%3Aopen) and self-assign it. 
