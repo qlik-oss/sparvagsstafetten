@@ -1,5 +1,5 @@
 # Spårvägsstafetten
-> Web site about a charity race &#x2013; "Spårvägsstafetten" &#x2013; a running relay race along the tramway in Lund, Sweden, organized by [IFK Lund](https://www.ifklund.se) and sponsored by Qlik.
+> Web site about a charity race &#x2013; "Spårvägsstafetten" &#x2013; a running relay race along the tramway in Lund, Sweden, organized by [IFK Lund](http://www.ifklund.se) and sponsored by Qlik.
 
 
 <div style="float:left; margin-right:25px;">
