@@ -10,6 +10,10 @@ strong {
   font-weight: bold;
 }
 
+section h1, h2, h3, h4, p {
+  text-align: center;
+}
+
 .hero {
   max-width:100%;
   width: 100vw;
@@ -46,7 +50,21 @@ a.button-register:link, a.button-register:visited, a.button-register:hover {
   color:#fff;
 }
 
+.quick-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+  
+  grid-column-gap: 5%;
+  grid-row-gap: 100px;
+}
 
+.quick-info__item  {
+  text-align: center;
+}
+
+.quick-info__item img{
+  width: 50px;
+}
 
 .hero h1, .hero h2 {
   text-align: center;
@@ -197,6 +215,10 @@ a.button-register:link, a.button-register:visited, a.button-register:hover {
 @media screen and (max-width:900px) {
   .columns {
     flex-wrap: wrap;
+  }
+
+  .quick-info {
+    grid-template-columns: repeat(1, 1fr);   
   }
 }
 
