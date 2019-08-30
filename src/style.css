@@ -233,6 +233,10 @@ a.button-register:link, a.button-register:visited, a.button-register:hover {
   .quick-info {
     grid-template-columns: repeat(1, 1fr);   
   }
+
+  .media-body .gallery { 
+    grid-template-columns: repeat(2, 1fr);   
+  }
 }
 
 .column {
@@ -333,3 +337,69 @@ a:hover {
   color: #7c7c82;
 }
 
+.header {
+  background: #333;
+  position: fixed;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  max-height: 340px; /* Have a max-height */
+  overflow-y: auto; /* To have a scrollbar if needed */
+}
+
+.header img {
+  height: 50px;
+}
+
+@media (max-device-width: 480px) and (orientation: landscape) {
+  .header {
+    max-height: 200px; /* Lower the max-height for smaller devices */
+  }
+}
+
+@media (min-width: 768px) {
+   .header {
+    overflow-y: visible; /* Reset overflow in large displays */
+  }
+ }
+
+ .media-body { 
+   margin-top: 80px;
+   padding: 1%;
+ }
+
+ .media-body .gallery { 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);  
+  
+  grid-column-gap: 5%;
+  grid-row-gap: 100px;
+
+  padding: 50px 0;
+ }
+
+ .links { 
+  font-size: 2em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+ }
+ .links .link{
+  cursor: pointer;
+  color: #333333;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  text-align: center; 
+  line-height: 300px;
+ }
+
+ .links .link:first-child {
+  background: #8ec6af;
+  color: #ffffff;
+ }
