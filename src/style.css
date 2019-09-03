@@ -54,7 +54,7 @@ a.button-cta:link, a.button-cta:visited, a.button-cta:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);  
   grid-column-gap: 5%;
-  grid-row-gap: 100px;
+  grid-row-gap: 50px;
 }
 
 .quick-info__item  {
@@ -245,6 +245,7 @@ a.button-cta:link, a.button-cta:visited, a.button-cta:hover {
   min-width: 33%;
 }
 
+
 img {
   width: 90%;
 }
@@ -354,7 +355,7 @@ a:not(.button-cta):hover {
   grid-template-columns: repeat(4, 1fr);  
   
   grid-column-gap: 5%;
-  grid-row-gap: 100px;
+  grid-row-gap: 5%;
 
   padding: 50px 0;
  }
@@ -366,6 +367,7 @@ a:not(.button-cta):hover {
   flex-wrap: wrap;
   width: 100%;
  }
+
  .links .link{
   cursor: pointer;
   color: #333333;
@@ -377,7 +379,14 @@ a:not(.button-cta):hover {
   text-align: center; 
   line-height: 300px;
  }
-
+ @media screen and (max-width:675px) {
+  .links {
+     flex-direction: column-reverse;
+  }
+  .links .link {
+    line-height: 200px;
+  }
+}
  .links .link:first-child {
   background: #8ec6af;
   color: #ffffff;
