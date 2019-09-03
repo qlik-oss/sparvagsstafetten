@@ -57,6 +57,7 @@ a.button-cta:link, a.button-cta:visited, a.button-cta:hover {
   grid-row-gap: 50px;
 }
 
+
 .quick-info__item  {
   text-align: center;
 }
@@ -65,6 +66,11 @@ a.button-cta:link, a.button-cta:visited, a.button-cta:hover {
   width: 50px;
 }
 
+nav.quick-info {
+  grid-template-columns: repeat(2,1fr);
+  grid-row-gap:20px;
+  font-size:90%;
+}
 .video { 
   padding-top:56.25%;
   position:relative;
@@ -137,6 +143,9 @@ a.button-cta:link, a.button-cta:visited, a.button-cta:hover {
   .hero h2 {
     font-size: 1.8rem;
   }
+  nav.quick-info {
+    grid-template-columns: repeat(3,1fr);  
+  }
 }
 @media screen and (min-width:770px) {
  .hero {
@@ -161,7 +170,10 @@ a.button-cta:link, a.button-cta:visited, a.button-cta:hover {
   }
   .hero h2 {
     font-size: 2.4rem;
-  }    
+  }
+  nav.quick-info {
+    grid-template-columns: repeat(6,1fr);  
+  }
 }
 @media screen and (min-width:1050px) {
   .hero h1 img {
@@ -236,6 +248,7 @@ a.button-cta:link, a.button-cta:visited, a.button-cta:hover {
   .media-body .gallery { 
     grid-template-columns: repeat(2, 1fr);   
   }
+
 }
 
 .column {
@@ -393,3 +406,11 @@ a:not(.button-cta):hover {
   background: #8ec6af;
   color: #ffffff;
  }
+
+ nav { 
+  margin-top: 100px;
+  padding: 1%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
