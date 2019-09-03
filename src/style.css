@@ -320,19 +320,19 @@ a:not(.button-cta):hover {
 }
 
 .header {
-  background: #333;
+  background: #8ec6af;
   position: fixed;
   padding: 10px;
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
-  max-height: 340px; /* Have a max-height */
-  overflow-y: auto; /* To have a scrollbar if needed */
 }
-
+.header div {
+  height: 100px;
+  text-align: center;
+}
 .header img {
-  height: 50px;
+  height: 150px;
 }
 
 @media (max-device-width: 480px) and (orientation: landscape) {
@@ -348,7 +348,7 @@ a:not(.button-cta):hover {
  }
 
  .media-body { 
-   margin-top: 80px;
+   margin-top: 100px;
    padding: 1%;
  }
 
