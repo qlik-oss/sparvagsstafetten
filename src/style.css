@@ -33,11 +33,11 @@ section h1, h2, h3, h4, p {
   background: rgba(0,0,0,0.6);
 }
 
-.register {
+.cta {
   text-align: center;
 }
 
-.button-register {
+.button-cta {
   padding: 1rem;
   margin: 1rem;
   display: inline-block;
@@ -46,14 +46,13 @@ section h1, h2, h3, h4, p {
   cursor: pointer;
   font-weight: bolder;
 }
-a.button-register:link, a.button-register:visited, a.button-register:hover {
+a.button-cta:link, a.button-cta:visited, a.button-cta:hover {
   color:#fff;
 }
 
 .quick-info {
   display: grid;
   grid-template-columns: repeat(3, 1fr);  
-  
   grid-column-gap: 5%;
   grid-row-gap: 100px;
 }
@@ -286,16 +285,16 @@ a {
   text-decoration: none;
 }
 
-a:link {
+a:not(.button-cta):link {
   color:#555;
   font-weight: bolder;
 } 
 
-a:visited {
+a:not(.button-cta):visited {
  color:#7c7c82;
 }
 
-a:hover {
+a:not(.button-cta):hover {
  color:#333;
  cursor: pointer;
 }
@@ -311,10 +310,10 @@ a:hover {
   background-color: #7c7c82;
   color: #fff;
 }
-.dark_gray a:link, .dark_gray a:visited {
+.dark_gray a:not(.button-cta):link, .dark_gray a:not(.button-cta):visited {
   color: #f47a56;
 }
-.dark_gray a:hover {
+.dark_gray a:not(.button-cta):hover {
   color: #f1592b;
 }
 .green {
@@ -326,10 +325,10 @@ a:hover {
   background-color: #f47a56;
   color: #fff;
 }
-.orange a:link, .orange a:visited {
+.orange a:not(.button-cta):link, .orange a:not(.button-cta):visited {
   color: #444;
 }
-.orange a:hover {
+.orange a:not(.button-cta):hover {
   color: #111;
 }
 .white {
