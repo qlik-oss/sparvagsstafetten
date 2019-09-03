@@ -131,7 +131,19 @@ nav.quick-info {
   margin: 0 auto;
   width: 40%; 
 }
-
+.section-center {
+  margin-left: auto;
+  margin-right: auto;
+  display:grid;
+  grid-template-columns: auto;
+ 
+}
+.section-sidehead {
+  display: none;
+}
+.section-content {
+  padding:10px;
+}
 @media screen and (min-width:550px) {
 
   .hero h1 img {
@@ -145,6 +157,12 @@ nav.quick-info {
   }
   nav.quick-info {
     grid-template-columns: repeat(3,1fr);  
+  }
+  .section-center {
+    grid-template-columns: 1fr;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 690px;
   }
 }
 @media screen and (min-width:770px) {
@@ -171,9 +189,16 @@ nav.quick-info {
   .hero h2 {
     font-size: 2.4rem;
   }
-  nav.quick-info {
-    grid-template-columns: repeat(6,1fr);  
+  .section-center {
+    grid-template-columns: 50px 640px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 690px;
   }
+  .section-sidehead {
+    display: block;
+  }
+
 }
 @media screen and (min-width:1050px) {
   .hero h1 img {
@@ -184,7 +209,11 @@ nav.quick-info {
   }
   .hero h2 {
     font-size: 2rem;
-  }    
+  } 
+  nav.quick-info {
+    grid-template-columns: repeat(6,1fr); 
+    max-width:950px;
+  }   
 }
 @media screen and (min-width:1450px) {
   .hero {
@@ -227,7 +256,9 @@ nav.quick-info {
     margin-left: auto;
     margin-right: auto;
   }
-
+  .section-center {
+    max-width: 690px;
+  }
 }
 
 .columns {
