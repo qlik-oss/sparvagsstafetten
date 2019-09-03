@@ -245,7 +245,9 @@ a.button-cta:link, a.button-cta:visited, a.button-cta:hover {
   min-width: 33%;
 }
 
-
+.center-img {
+  text-align: center;
+}
 img {
   width: 90%;
 }
