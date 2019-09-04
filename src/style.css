@@ -370,13 +370,11 @@ a:not(.button-cta):hover {
   top: 0;
   left: 0;
   width: 100%;
-}
-.header div {
-  height: 100px;
   text-align: center;
+  height: 100px;
 }
 .header img {
-  height: 150px;
+  height: 100%;
 }
 
 @media (max-device-width: 480px) and (orientation: landscape) {
