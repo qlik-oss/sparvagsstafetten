@@ -139,6 +139,7 @@ nav.quick-info {
   margin-right: auto;
   display:grid;
   grid-template-columns: auto;
+  row-gap: 30px;
  
 }
 .section-sidehead {
