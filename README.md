@@ -65,7 +65,7 @@ All modifications to the web site must be approved by a maintainer (who can merg
 
 * All changes involving **visuals or brand (fonts, colors, layout etc)** must be approved by Richard Huldén (gh account TBD).
 
-* All changes involving **facts or sponsors** must be approved by Saga Thornberg (gh account TBD).
+* All changes involving **facts or sponsors** must be approved by Saga Thornberg ([Toscing](https://github.com/Toscing)).
 
 ### Automation
 All PRs to master are automatically deployed with previews (click "Details" on the PR).
