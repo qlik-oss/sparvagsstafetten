@@ -53,13 +53,16 @@ a.button-cta:link, a.button-cta:visited, a.button-cta:hover {
   color:#fff;
 }
 
+.info {
+  padding: 3% 0 0 0 !important;
+}
+
 .quick-info {
   display: grid;
   grid-template-columns: repeat(3, 1fr);  
   grid-column-gap: 5%;
   grid-row-gap: 50px;
 }
-
 
 .quick-info__item  {
   text-align: center;
@@ -140,8 +143,9 @@ nav.quick-info {
   display:grid;
   grid-template-columns: auto;
   row-gap: 30px;
- 
+  padding-top: 120px;
 }
+
 .section-sidehead {
   display: none;
 }
