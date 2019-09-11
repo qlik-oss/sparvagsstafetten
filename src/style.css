@@ -7,13 +7,19 @@ html, body, h1, h2, h3 {
 }
 h1, h2, h3 {
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 0.3rem;
+}
+h1 {
+  font-size:1.9rem;
+}
+h2 {
+  font-size:1.5rem;
 }
 strong {
   font-weight: bold;
 }
 
-section h1, h2, h3, h4 {
+section h1, h2, h3, h4, p {
   text-align: center;
 }
 
